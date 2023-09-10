@@ -1,0 +1,9 @@
+{
+  "version": "1.9.10",
+  "platform": "java",
+  "args": "",
+  "noneMarkers": true,
+  "theme": "idea",
+  "code": "/**\n * You can edit, run, and share this code.\n * play.kotlinlang.org\n */\nfun main() {\n    print(\"Hello UPIICSA \")\n    print(\"todos son Bienvenidos \")\n    println(\"a este curso\")\n    println(\"De 2023\")\n    \n    \n}",
+  "alg": "HS256"
+}
