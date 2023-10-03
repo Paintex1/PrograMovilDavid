@@ -1,0 +1,20 @@
+/**
+ * Tarea: Operadores 
+ * 
+ */
+fun main() {
+  	/**
+  	 * P1(4,3), P2(-3,-2)
+  	 */
+    val x1: Float = 4f
+    val y1: Float = 3f
+    
+    val x2: Float = -3f
+    val y2: Float = -2f
+    
+    var m: Float = 0f
+    
+    m=(y2-y1)/(x2-x1)
+    
+    println("El valor de la pendiente es: $m")
+}
