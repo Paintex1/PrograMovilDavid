@@ -3,8 +3,8 @@ package Clases
 import interfaces.IPromotion
 
 class NationalLowSeason(city:String) : National(city), IPromotion {
-    override val discount = 10 //es porcentaje, o sea 10%
-    override val typeDiscount = 0 //0 para porcentaje, 1 para cantidad
+    override val discount = 10 
+    override val typeDiscount = 0 
 
     override fun getPrice(numDays: Int): Int {
         val amount = super.getPrice(numDays)
